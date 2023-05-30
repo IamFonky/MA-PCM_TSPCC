@@ -1,5 +1,5 @@
 tspcc/tspcc
 *.o
 data/*
-plots/
+plots/*
 !plots/*.plot
