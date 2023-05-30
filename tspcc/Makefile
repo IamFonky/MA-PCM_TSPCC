@@ -10,6 +10,7 @@ tspcc: tspcc.o
 	
 tspcc.o: tspcc.cpp graph.hpp path.hpp tspfile.hpp lifo.hpp
 	c++ $(CFLAGS) -c tspcc.cpp
+	mkdir -p ../data
 
 clean:
 	rm -f *.o tspcc
