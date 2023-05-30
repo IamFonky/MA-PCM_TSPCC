@@ -1,0 +1,5 @@
+tspcc/tspcc
+*.o
+data/*
+plots/
+!plots/*.plot
